@@ -123,6 +123,9 @@ public class t1 {
             }
             System.out.println();
         }
+
+
+
     }
 
 }
