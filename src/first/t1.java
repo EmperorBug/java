@@ -15,12 +15,12 @@ public class t1 {
         //v4();
         //v5();
         //v6();
-        //v7();
+        v7();
 //        v8();
         //v9();
-        v10();
-        short n = 1;
-        short n2 = (short) -n;
+       // v10();
+
+
     }
     public static void change() {
         short n = 10;
@@ -74,9 +74,9 @@ public class t1 {
         }
     static void v5() {
         int n1,n2,n3;
-            n1 = 10;
-            n2 = 40;
-            n3 = 30;
+            n1 = 80;
+            n2 = 33;
+            n3 = 55;
             int big = (n1 < n2) ? (n2 < n3) ? n3 : n2 : n1;
             System.out.println(big);
     }
@@ -89,10 +89,15 @@ public class t1 {
         System.out.println(Math.abs(n1-n2));
         System.out.println(65=='A');
     }
+
+    //구구단
     static  void  v7() {
+
         for (int i = 1; i <= 9; i++) {
-            for (int j = 1; j < 9; j++) {
-                System.out.println(i+"*"+j +"="+ i*j);
+            if (i % 3 == 0) {
+                for (int j = 1; j < 9; j++) {
+                    System.out.println(i + "*" + j + "=" + i * j);
+                }
             }
         }
     }
