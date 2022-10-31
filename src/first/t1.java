@@ -15,10 +15,10 @@ public class t1 {
         //v4();
         //v5();
         //v6();
-        v7();
+   //     v7();
 //        v8();
         //v9();
-       // v10();
+        v10(4);
 
 
     }
@@ -121,16 +121,22 @@ public class t1 {
         }
         System.out.println(cnt);
     }
-    static void v10() {
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j<=i; j++)  {
+    static void v10(int num) {
+        for (int i = 0; i  < num; i++) {
+            for (int j = 0; j < num; j++) {
+                if (j >= num-1-i) {
+
+                    System.out.print("*");
+                }
+                else System.out.print(" ");
+            }
+
+            for (int k = 0; k<=i-1; k++) {
                 System.out.print("*");
             }
+
             System.out.println();
         }
-
-
-
     }
 
 }
