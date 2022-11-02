@@ -2,7 +2,7 @@ package first;
 
 public class t2 {
     public static void main(String[] args) {
-        grade(100,95,95);
+        grade(100,95,100);
         getHap(123);
     }
 
