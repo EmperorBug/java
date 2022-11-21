@@ -16,6 +16,7 @@ public class Song {
     public  Song(){}
 
     void show() {
+        int t = 0;
         System.out.println("노래 제목 :"+title+", 가수 : "+artist+", 연도 : "+year+", 국적 : "+country);
     }
 }

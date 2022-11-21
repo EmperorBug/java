@@ -1,7 +1,9 @@
 package first;
 
+
 public class t1 {
     public static void main(String[] args) {
+
 //        int kor,en,ma;
 //        kor = 90;
 //        en = 70;

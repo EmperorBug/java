@@ -3,10 +3,10 @@ package two;
 public class Circle {
     int radius;
 
-    Circle(int radius) {
+    public Circle(int radius) {
         this.radius = radius;
     }
-    double getArea() {
+    public double getArea() {
         return radius*radius*Math.PI;
     }
 }

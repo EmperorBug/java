@@ -1,0 +1,20 @@
+package nine;
+
+class Board{}
+class PBoard extends Board{}
+public class ClassCast {
+    public static void main(String[] args) {
+        try {
+            Board pbd1 = new PBoard();
+            PBoard pb2 = (PBoard) pbd1;
+
+            System.out.println(".. intermediate location..");
+            Board ebd1 = new Board();
+            PBoard ebd2 = (PBoard) ebd1;
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+            System.out.println("エーラです");
+        }
+    }
+}
